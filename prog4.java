@@ -1,8 +1,7 @@
 import java.io.*;
-class prog4	{
-	public static void main(String args[]) throws IOException{
+class Main{
+	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
-
 		String inp = sc.readLine();
 		Integer n = Integer.parseInt(sc.readLine());
 		System.out.println(UserMainCode.repeatFront(inp,n));
