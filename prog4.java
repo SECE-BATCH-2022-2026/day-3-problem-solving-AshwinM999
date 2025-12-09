@@ -1,5 +1,5 @@
 import java.io.*;
-class prog4{
+class prog4	{
 	public static void main(String args[]) throws IOException{
 		Scanner sc=new Scanner(System.in);
 
